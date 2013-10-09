@@ -1,0 +1,19 @@
+html{
+	-moz-transform:rotate(180deg); /*Firefox*/
+	-webkit-transform:rotate(180deg); /*Chrome*/
+	-o-transform:rotate(180deg); /*for all you cool kid opera users*/
+}
+html::selection{
+	background: #000;
+	color: #0f0;
+}
+html::-moz-selection{
+	background: #000;
+	color: #0f0;
+}
+p{
+	color: #c0ebff;
+}
+ol{
+	color: #ffc0cb;
+}
